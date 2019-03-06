@@ -1,0 +1,28 @@
+Autor:José Manuel Romero
+NIA:740914
+
+Pregunta 1
+	Las llamadas al sistema son exec y fork
+	exec:reemplaza el proceso en ejecución por otro nuevo
+	fork: Crea un proceso hijo, clon del padre
+Pregunta 2:
+	Al ejecutar primer_script.sh nos deniega el permiso. Para solucionarlo se debe cambiar los permisos con el comando chmod u+x primer_script.sh, lo que añade al usuario el permiso de ejecución.
+
+Pregunta 3:
+	La salida es:
+		hola
+		mundo
+	Esto se debe a que se interpreta como dos comandos echo donde cada uno muestra por la salida estándar una palabra de la cadena "hola mundo"
+
+Pregunta 4:
+	En este caso la salida es:
+		hola
+		mundo
+		,
+		como
+		estas?
+
+Pregunta 5:
+	No se produce ningún error pero no muestra los ficheros de dicho subdirectorio. El shell se limita a indicarnos que es un subdirectorio
+		 
+	
